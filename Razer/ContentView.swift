@@ -2,19 +2,16 @@
 //  ContentView.swift
 //  Razer
 //
-//  Created by Jose Periban Palacios on 7/29/20.
-//  Copyright © 2020 Anaideia. All rights reserved.
+//  Created by Jose Periban Palacios on 8/1/20.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        Text("Hello, world!").padding()
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

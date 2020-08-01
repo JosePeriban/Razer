@@ -2,8 +2,7 @@
 //  RazerUITests.swift
 //  RazerUITests
 //
-//  Created by Jose Periban Palacios on 7/29/20.
-//  Copyright © 2020 Anaideia. All rights reserved.
+//  Created by Jose Periban Palacios on 8/1/20.
 //
 
 import XCTest
@@ -35,7 +34,7 @@ class RazerUITests: XCTestCase {
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
             // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
+            measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
             }
         }

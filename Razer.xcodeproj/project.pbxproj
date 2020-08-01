@@ -7,67 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B32DE7924D247020099B602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32DE7824D247020099B602 /* AppDelegate.swift */; };
-		4B32DE7B24D247020099B602 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32DE7A24D247020099B602 /* ContentView.swift */; };
-		4B32DE7E24D247020099B602 /* Razer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B32DE7C24D247020099B602 /* Razer.xcdatamodeld */; };
-		4B32DE8024D247050099B602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B32DE7F24D247050099B602 /* Assets.xcassets */; };
-		4B32DE8324D247050099B602 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B32DE8224D247050099B602 /* Preview Assets.xcassets */; };
-		4B32DE8624D247050099B602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B32DE8424D247050099B602 /* Main.storyboard */; };
-		4B32DE9224D247050099B602 /* RazerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32DE9124D247050099B602 /* RazerTests.swift */; };
-		4B32DE9D24D247050099B602 /* RazerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B32DE9C24D247050099B602 /* RazerUITests.swift */; };
+		4B09115C24D62EC3008FDA91 /* RazerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09115B24D62EC3008FDA91 /* RazerApp.swift */; };
+		4B09115E24D62EC3008FDA91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09115D24D62EC3008FDA91 /* ContentView.swift */; };
+		4B09116024D62EC4008FDA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B09115F24D62EC4008FDA91 /* Assets.xcassets */; };
+		4B09116324D62EC4008FDA91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B09116224D62EC4008FDA91 /* Preview Assets.xcassets */; };
+		4B09116F24D62EC5008FDA91 /* RazerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09116E24D62EC5008FDA91 /* RazerTests.swift */; };
+		4B09117A24D62EC5008FDA91 /* RazerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09117924D62EC5008FDA91 /* RazerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4B32DE8E24D247050099B602 /* PBXContainerItemProxy */ = {
+		4B09116B24D62EC5008FDA91 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B32DE6D24D247020099B602 /* Project object */;
+			containerPortal = 4B09115024D62EC3008FDA91 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4B32DE7424D247020099B602;
+			remoteGlobalIDString = 4B09115724D62EC3008FDA91;
 			remoteInfo = Razer;
 		};
-		4B32DE9924D247050099B602 /* PBXContainerItemProxy */ = {
+		4B09117624D62EC5008FDA91 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B32DE6D24D247020099B602 /* Project object */;
+			containerPortal = 4B09115024D62EC3008FDA91 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4B32DE7424D247020099B602;
+			remoteGlobalIDString = 4B09115724D62EC3008FDA91;
 			remoteInfo = Razer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B32DE7524D247020099B602 /* Razer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Razer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B32DE7824D247020099B602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B32DE7A24D247020099B602 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4B32DE7D24D247020099B602 /* Razer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Razer.xcdatamodel; sourceTree = "<group>"; };
-		4B32DE7F24D247050099B602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B32DE8224D247050099B602 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4B32DE8524D247050099B602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4B32DE8724D247050099B602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B32DE8824D247050099B602 /* Razer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Razer.entitlements; sourceTree = "<group>"; };
-		4B32DE8D24D247050099B602 /* RazerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RazerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B32DE9124D247050099B602 /* RazerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RazerTests.swift; sourceTree = "<group>"; };
-		4B32DE9324D247050099B602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B32DE9824D247050099B602 /* RazerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RazerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B32DE9C24D247050099B602 /* RazerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RazerUITests.swift; sourceTree = "<group>"; };
-		4B32DE9E24D247050099B602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B09115824D62EC3008FDA91 /* Razer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Razer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B09115B24D62EC3008FDA91 /* RazerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RazerApp.swift; sourceTree = "<group>"; };
+		4B09115D24D62EC3008FDA91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B09115F24D62EC4008FDA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B09116224D62EC4008FDA91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B09116424D62EC4008FDA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B09116524D62EC4008FDA91 /* Razer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Razer.entitlements; sourceTree = "<group>"; };
+		4B09116A24D62EC5008FDA91 /* RazerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RazerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B09116E24D62EC5008FDA91 /* RazerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RazerTests.swift; sourceTree = "<group>"; };
+		4B09117024D62EC5008FDA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B09117524D62EC5008FDA91 /* RazerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RazerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B09117924D62EC5008FDA91 /* RazerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RazerUITests.swift; sourceTree = "<group>"; };
+		4B09117B24D62EC5008FDA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B32DE7224D247020099B602 /* Frameworks */ = {
+		4B09115524D62EC3008FDA91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B32DE8A24D247050099B602 /* Frameworks */ = {
+		4B09116724D62EC5008FDA91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B32DE9524D247050099B602 /* Frameworks */ = {
+		4B09117224D62EC5008FDA91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,63 +73,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B32DE6C24D247020099B602 = {
+		4B09114F24D62EC3008FDA91 = {
 			isa = PBXGroup;
 			children = (
-				4B32DE7724D247020099B602 /* Razer */,
-				4B32DE9024D247050099B602 /* RazerTests */,
-				4B32DE9B24D247050099B602 /* RazerUITests */,
-				4B32DE7624D247020099B602 /* Products */,
+				4B09115A24D62EC3008FDA91 /* Razer */,
+				4B09116D24D62EC5008FDA91 /* RazerTests */,
+				4B09117824D62EC5008FDA91 /* RazerUITests */,
+				4B09115924D62EC3008FDA91 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4B32DE7624D247020099B602 /* Products */ = {
+		4B09115924D62EC3008FDA91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B32DE7524D247020099B602 /* Razer.app */,
-				4B32DE8D24D247050099B602 /* RazerTests.xctest */,
-				4B32DE9824D247050099B602 /* RazerUITests.xctest */,
+				4B09115824D62EC3008FDA91 /* Razer.app */,
+				4B09116A24D62EC5008FDA91 /* RazerTests.xctest */,
+				4B09117524D62EC5008FDA91 /* RazerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B32DE7724D247020099B602 /* Razer */ = {
+		4B09115A24D62EC3008FDA91 /* Razer */ = {
 			isa = PBXGroup;
 			children = (
-				4B32DE7824D247020099B602 /* AppDelegate.swift */,
-				4B32DE7A24D247020099B602 /* ContentView.swift */,
-				4B32DE7F24D247050099B602 /* Assets.xcassets */,
-				4B32DE8424D247050099B602 /* Main.storyboard */,
-				4B32DE8724D247050099B602 /* Info.plist */,
-				4B32DE8824D247050099B602 /* Razer.entitlements */,
-				4B32DE7C24D247020099B602 /* Razer.xcdatamodeld */,
-				4B32DE8124D247050099B602 /* Preview Content */,
+				4B09115B24D62EC3008FDA91 /* RazerApp.swift */,
+				4B09115D24D62EC3008FDA91 /* ContentView.swift */,
+				4B09115F24D62EC4008FDA91 /* Assets.xcassets */,
+				4B09116424D62EC4008FDA91 /* Info.plist */,
+				4B09116524D62EC4008FDA91 /* Razer.entitlements */,
+				4B09116124D62EC4008FDA91 /* Preview Content */,
 			);
 			path = Razer;
 			sourceTree = "<group>";
 		};
-		4B32DE8124D247050099B602 /* Preview Content */ = {
+		4B09116124D62EC4008FDA91 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4B32DE8224D247050099B602 /* Preview Assets.xcassets */,
+				4B09116224D62EC4008FDA91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4B32DE9024D247050099B602 /* RazerTests */ = {
+		4B09116D24D62EC5008FDA91 /* RazerTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B32DE9124D247050099B602 /* RazerTests.swift */,
-				4B32DE9324D247050099B602 /* Info.plist */,
+				4B09116E24D62EC5008FDA91 /* RazerTests.swift */,
+				4B09117024D62EC5008FDA91 /* Info.plist */,
 			);
 			path = RazerTests;
 			sourceTree = "<group>";
 		};
-		4B32DE9B24D247050099B602 /* RazerUITests */ = {
+		4B09117824D62EC5008FDA91 /* RazerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4B32DE9C24D247050099B602 /* RazerUITests.swift */,
-				4B32DE9E24D247050099B602 /* Info.plist */,
+				4B09117924D62EC5008FDA91 /* RazerUITests.swift */,
+				4B09117B24D62EC5008FDA91 /* Info.plist */,
 			);
 			path = RazerUITests;
 			sourceTree = "<group>";
@@ -141,13 +135,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B32DE7424D247020099B602 /* Razer */ = {
+		4B09115724D62EC3008FDA91 /* Razer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B32DEA124D247050099B602 /* Build configuration list for PBXNativeTarget "Razer" */;
+			buildConfigurationList = 4B09117E24D62EC5008FDA91 /* Build configuration list for PBXNativeTarget "Razer" */;
 			buildPhases = (
-				4B32DE7124D247020099B602 /* Sources */,
-				4B32DE7224D247020099B602 /* Frameworks */,
-				4B32DE7324D247020099B602 /* Resources */,
+				4B09115424D62EC3008FDA91 /* Sources */,
+				4B09115524D62EC3008FDA91 /* Frameworks */,
+				4B09115624D62EC3008FDA91 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -155,69 +149,68 @@
 			);
 			name = Razer;
 			productName = Razer;
-			productReference = 4B32DE7524D247020099B602 /* Razer.app */;
+			productReference = 4B09115824D62EC3008FDA91 /* Razer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B32DE8C24D247050099B602 /* RazerTests */ = {
+		4B09116924D62EC5008FDA91 /* RazerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B32DEA424D247050099B602 /* Build configuration list for PBXNativeTarget "RazerTests" */;
+			buildConfigurationList = 4B09118124D62EC5008FDA91 /* Build configuration list for PBXNativeTarget "RazerTests" */;
 			buildPhases = (
-				4B32DE8924D247050099B602 /* Sources */,
-				4B32DE8A24D247050099B602 /* Frameworks */,
-				4B32DE8B24D247050099B602 /* Resources */,
+				4B09116624D62EC5008FDA91 /* Sources */,
+				4B09116724D62EC5008FDA91 /* Frameworks */,
+				4B09116824D62EC5008FDA91 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4B32DE8F24D247050099B602 /* PBXTargetDependency */,
+				4B09116C24D62EC5008FDA91 /* PBXTargetDependency */,
 			);
 			name = RazerTests;
 			productName = RazerTests;
-			productReference = 4B32DE8D24D247050099B602 /* RazerTests.xctest */;
+			productReference = 4B09116A24D62EC5008FDA91 /* RazerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4B32DE9724D247050099B602 /* RazerUITests */ = {
+		4B09117424D62EC5008FDA91 /* RazerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B32DEA724D247050099B602 /* Build configuration list for PBXNativeTarget "RazerUITests" */;
+			buildConfigurationList = 4B09118424D62EC5008FDA91 /* Build configuration list for PBXNativeTarget "RazerUITests" */;
 			buildPhases = (
-				4B32DE9424D247050099B602 /* Sources */,
-				4B32DE9524D247050099B602 /* Frameworks */,
-				4B32DE9624D247050099B602 /* Resources */,
+				4B09117124D62EC5008FDA91 /* Sources */,
+				4B09117224D62EC5008FDA91 /* Frameworks */,
+				4B09117324D62EC5008FDA91 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4B32DE9A24D247050099B602 /* PBXTargetDependency */,
+				4B09117724D62EC5008FDA91 /* PBXTargetDependency */,
 			);
 			name = RazerUITests;
 			productName = RazerUITests;
-			productReference = 4B32DE9824D247050099B602 /* RazerUITests.xctest */;
+			productReference = 4B09117524D62EC5008FDA91 /* RazerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B32DE6D24D247020099B602 /* Project object */ = {
+		4B09115024D62EC3008FDA91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = Anaideia;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					4B32DE7424D247020099B602 = {
-						CreatedOnToolsVersion = 11.6;
+					4B09115724D62EC3008FDA91 = {
+						CreatedOnToolsVersion = 12.0;
 					};
-					4B32DE8C24D247050099B602 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 4B32DE7424D247020099B602;
+					4B09116924D62EC5008FDA91 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4B09115724D62EC3008FDA91;
 					};
-					4B32DE9724D247050099B602 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 4B32DE7424D247020099B602;
+					4B09117424D62EC5008FDA91 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4B09115724D62EC3008FDA91;
 					};
 				};
 			};
-			buildConfigurationList = 4B32DE7024D247020099B602 /* Build configuration list for PBXProject "Razer" */;
+			buildConfigurationList = 4B09115324D62EC3008FDA91 /* Build configuration list for PBXProject "Razer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,37 +218,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 4B32DE6C24D247020099B602;
-			productRefGroup = 4B32DE7624D247020099B602 /* Products */;
+			mainGroup = 4B09114F24D62EC3008FDA91;
+			productRefGroup = 4B09115924D62EC3008FDA91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B32DE7424D247020099B602 /* Razer */,
-				4B32DE8C24D247050099B602 /* RazerTests */,
-				4B32DE9724D247050099B602 /* RazerUITests */,
+				4B09115724D62EC3008FDA91 /* Razer */,
+				4B09116924D62EC5008FDA91 /* RazerTests */,
+				4B09117424D62EC5008FDA91 /* RazerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B32DE7324D247020099B602 /* Resources */ = {
+		4B09115624D62EC3008FDA91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B32DE8624D247050099B602 /* Main.storyboard in Resources */,
-				4B32DE8324D247050099B602 /* Preview Assets.xcassets in Resources */,
-				4B32DE8024D247050099B602 /* Assets.xcassets in Resources */,
+				4B09116324D62EC4008FDA91 /* Preview Assets.xcassets in Resources */,
+				4B09116024D62EC4008FDA91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B32DE8B24D247050099B602 /* Resources */ = {
+		4B09116824D62EC5008FDA91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B32DE9624D247050099B602 /* Resources */ = {
+		4B09117324D62EC5008FDA91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,60 +257,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B32DE7124D247020099B602 /* Sources */ = {
+		4B09115424D62EC3008FDA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B32DE7E24D247020099B602 /* Razer.xcdatamodeld in Sources */,
-				4B32DE7B24D247020099B602 /* ContentView.swift in Sources */,
-				4B32DE7924D247020099B602 /* AppDelegate.swift in Sources */,
+				4B09115E24D62EC3008FDA91 /* ContentView.swift in Sources */,
+				4B09115C24D62EC3008FDA91 /* RazerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B32DE8924D247050099B602 /* Sources */ = {
+		4B09116624D62EC5008FDA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B32DE9224D247050099B602 /* RazerTests.swift in Sources */,
+				4B09116F24D62EC5008FDA91 /* RazerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B32DE9424D247050099B602 /* Sources */ = {
+		4B09117124D62EC5008FDA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B32DE9D24D247050099B602 /* RazerUITests.swift in Sources */,
+				4B09117A24D62EC5008FDA91 /* RazerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B32DE8F24D247050099B602 /* PBXTargetDependency */ = {
+		4B09116C24D62EC5008FDA91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B32DE7424D247020099B602 /* Razer */;
-			targetProxy = 4B32DE8E24D247050099B602 /* PBXContainerItemProxy */;
+			target = 4B09115724D62EC3008FDA91 /* Razer */;
+			targetProxy = 4B09116B24D62EC5008FDA91 /* PBXContainerItemProxy */;
 		};
-		4B32DE9A24D247050099B602 /* PBXTargetDependency */ = {
+		4B09117724D62EC5008FDA91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B32DE7424D247020099B602 /* Razer */;
-			targetProxy = 4B32DE9924D247050099B602 /* PBXContainerItemProxy */;
+			target = 4B09115724D62EC3008FDA91 /* Razer */;
+			targetProxy = 4B09117624D62EC5008FDA91 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		4B32DE8424D247050099B602 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B32DE8524D247050099B602 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		4B32DE9F24D247050099B602 /* Debug */ = {
+		4B09117C24D62EC5008FDA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,6 +324,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -368,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -378,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		4B32DEA024D247050099B602 /* Release */ = {
+		4B09117D24D62EC5008FDA91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -404,6 +385,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -422,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -431,10 +413,11 @@
 			};
 			name = Release;
 		};
-		4B32DEA224D247050099B602 /* Debug */ = {
+		4B09117F24D62EC5008FDA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Razer/Razer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -447,17 +430,18 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.Anaideia.Razer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		4B32DEA324D247050099B602 /* Release */ = {
+		4B09118024D62EC5008FDA91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Razer/Razer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -470,14 +454,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.Anaideia.Razer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		4B32DEA524D247050099B602 /* Debug */ = {
+		4B09118224D62EC5008FDA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -491,7 +475,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.Anaideia.RazerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -499,7 +483,7 @@
 			};
 			name = Debug;
 		};
-		4B32DEA624D247050099B602 /* Release */ = {
+		4B09118324D62EC5008FDA91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -513,7 +497,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.Anaideia.RazerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -521,7 +505,7 @@
 			};
 			name = Release;
 		};
-		4B32DEA824D247050099B602 /* Debug */ = {
+		4B09118524D62EC5008FDA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,7 +525,7 @@
 			};
 			name = Debug;
 		};
-		4B32DEA924D247050099B602 /* Release */ = {
+		4B09118624D62EC5008FDA91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -564,56 +548,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B32DE7024D247020099B602 /* Build configuration list for PBXProject "Razer" */ = {
+		4B09115324D62EC3008FDA91 /* Build configuration list for PBXProject "Razer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B32DE9F24D247050099B602 /* Debug */,
-				4B32DEA024D247050099B602 /* Release */,
+				4B09117C24D62EC5008FDA91 /* Debug */,
+				4B09117D24D62EC5008FDA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B32DEA124D247050099B602 /* Build configuration list for PBXNativeTarget "Razer" */ = {
+		4B09117E24D62EC5008FDA91 /* Build configuration list for PBXNativeTarget "Razer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B32DEA224D247050099B602 /* Debug */,
-				4B32DEA324D247050099B602 /* Release */,
+				4B09117F24D62EC5008FDA91 /* Debug */,
+				4B09118024D62EC5008FDA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B32DEA424D247050099B602 /* Build configuration list for PBXNativeTarget "RazerTests" */ = {
+		4B09118124D62EC5008FDA91 /* Build configuration list for PBXNativeTarget "RazerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B32DEA524D247050099B602 /* Debug */,
-				4B32DEA624D247050099B602 /* Release */,
+				4B09118224D62EC5008FDA91 /* Debug */,
+				4B09118324D62EC5008FDA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B32DEA724D247050099B602 /* Build configuration list for PBXNativeTarget "RazerUITests" */ = {
+		4B09118424D62EC5008FDA91 /* Build configuration list for PBXNativeTarget "RazerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B32DEA824D247050099B602 /* Debug */,
-				4B32DEA924D247050099B602 /* Release */,
+				4B09118524D62EC5008FDA91 /* Debug */,
+				4B09118624D62EC5008FDA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4B32DE7C24D247020099B602 /* Razer.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4B32DE7D24D247020099B602 /* Razer.xcdatamodel */,
-			);
-			currentVersion = 4B32DE7D24D247020099B602 /* Razer.xcdatamodel */;
-			path = Razer.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 4B32DE6D24D247020099B602 /* Project object */;
+	rootObject = 4B09115024D62EC3008FDA91 /* Project object */;
 }

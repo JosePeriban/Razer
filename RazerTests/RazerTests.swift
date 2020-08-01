@@ -2,8 +2,7 @@
 //  RazerTests.swift
 //  RazerTests
 //
-//  Created by Jose Periban Palacios on 7/29/20.
-//  Copyright © 2020 Anaideia. All rights reserved.
+//  Created by Jose Periban Palacios on 8/1/20.
 //
 
 import XCTest
